@@ -1,0 +1,47 @@
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.main-title {
+  font-family: "Playfair Display", serif;
+  font-size: 90px;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 35px;
+  color:rgb(249, 248, 245);
+  padding-top: 30vh;
+  margin-bottom: 0;
+}
+.intro-question {
+    font-style: italic;
+    letter-spacing: 10px;
+    padding-bottom: 10vh;
+    color:#5b5957
+}
+.intro-button {
+    font-family: "EB Garamound", serif;
+    font-size: 17px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: transparent;
+    border: none;
+    color: rgb(185, 180, 180);
+    letter-spacing: 10px;
+}
+img {
+    width: 200px;
+    top: 27vh;
+    left: 80vh;
+    position: fixed;
+}
+#intro-screen {
+    position: fixed;
+    inset: 0; /* smh that sets top, right, bottom, and left tgt */
+    text-align: center;
+    background: radial-gradient(ellipse at 50% 38%, #1a1812 0%, #0a0908 55%, #050403 100%); /*format: shape,( percent, color, percent, color, repeat...) */
+}
